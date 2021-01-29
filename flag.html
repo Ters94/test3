@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #container {
+        width: 100%;
+        height: 100vh;
+        background: beige;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        }
+        
+#image{
+    position: absolute;
+    top: 15vw;
+}
+    #titel {
+        text-shadow: 0.2vw 0.2vw 0.4vw #000000;
+    position: absolute;
+    color: white ;
+    font-size: 13vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+    #wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: purple 3px solid;
+        width: 75vw;
+
+        
+    }
+
+    .flag1{
+        background: black;
+        height: 50vw;
+        width: 25vw;
+    }
+    .flag2{
+        background:yellow;
+        height: 50vw;
+        width: 25vw;
+    }
+    .flag3{
+        background:red;
+        height: 50vw;
+        width: 25vw;
+    }
+    </style>
+<body>
+    <div id="container">
+        <div id="wrapper">
+            <div class="flag1"></div>
+            <div class="flag2"></div>
+            <div class="flag3"></div>
+            <div id="titel">Belgique</div>
+            <img id="image" src="stromae.png" alt="stromae">
+        </div>
+    </div>
+</body>
+</html>
